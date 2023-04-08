@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main">
+      <!-- header -->
+      <!--time ref-->
+      <div class="header">
+        <div>
+          <p>Invoice Number: <span id="invoiceNumber">1282</span></p>
+          <p>Ref: <span id="invoiceRef">abdullah</span></p>
+        </div>
+        <p>Date: <span id="invoiceDate">12/12/2021</span></p>
+      </div>
+      <!--time ref end-->
+      <!--company info-->
+      <div class="companyInfo">
+        <div>
+          <h3>Bismillah Trading</h3>
+          <p>House-31(1st Floor),Road-1</p>
+          <p>Block-A, Niketan, Gulshan-1, Dhaka</p>
+          <p>E-Mail: bismillatrading012@gmail.com</p>
+        </div>
+      </div>
+      <!-- header end -->
+      <!--Invoice -->
+
+      <h1 style="text-align: center; margin-top: 10px">Invoice</h1>
+      <!--company name-->
+      <div class="companyName">
+        <div>
+          <p>
+            Customer :
+            <span id="customerName">Abdullah</span>
+            <br />
+            <span id="customerAddress">Dhaka</span>
+            <br />
+            <span id="customerPhone">01700000000</span>
+          </p>
+        </div>
+      </div>
+
+      <!--company name end-->
+      <!--table-->
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th>SL</th>
+              <th>Description of Goods</th>
+              <th>Quantity</th>
+              <th>Rate</th>
+              <th>Per</th>
+              <th>Disc. %</th>
+              <th>Amount</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+            <tr>
+              <td>1</td>
+              <td>
+                <h4>Test product</h4>
+                <p>Batch: <span id="batchNumber">234234</span></p>
+                <p>Exp: <span id="expDate">12/12/2021</span></p>
+              </td>
+              <td>1</td>
+              <td>100</td>
+              <td>100</td>
+              <td>0</td>
+              <td>
+                <span style="font-weight: bold; font-size: 20px">1000</span>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>
+                <h4>Test product</h4>
+                <p>Batch: <span id="batchNumber">234234</span></p>
+                <p>Exp: <span id="expDate">12/12/2021</span></p>
+              </td>
+              <td>1</td>
+              <td>100</td>
+              <td>100</td>
+              <td>0</td>
+              <td>
+                <span style="font-weight: bold; font-size: 20px">1000</span>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>
+                <h4>Test product</h4>
+                <p>Batch: <span id="batchNumber">234234</span></p>
+                <p>Exp: <span id="expDate">12/12/2021</span></p>
+              </td>
+              <td>1</td>
+              <td>100</td>
+              <td>100</td>
+              <td>0</td>
+              <td>
+                <span style="font-weight: bold; font-size: 20px">1000</span>
+              </td>
+            </tr>
+
+            <!--total footer-->
+            <tr class="total-footer">
+              <td
+                colspan="6"
+                style="text-align: right; font-weight: bold; font-size: 22px"
+              >
+                Total
+              </td>
+              <td id="total" style="font-weight: bold; font-size: 22px">100</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--table end-->
+      <!--footer-->
+      <div class="footer">
+        <div>
+          <p>
+            Amount chargeable (in words) <br />
+            <span
+              id="amount-in-words"
+              style="font-weight: bold; font-size: 20px"
+              >One thousand taka only</span
+            >
+          </p>
+        </div>
+        <div class="footer-bottom">
+          <div class="declaration">
+            <p>
+              <span style="font-size: large; font-weight: bold">
+                Declaration:</span
+              >
+              <br />
+
+              We declare that this invoice shows the actual price of the goods
+              described and that all particulars are true and correct.
+            </p>
+          </div>
+          <div>
+            <p style="margin-bottom: 20px">For Bismillah Trading</p>
+            <p>..................................</p>
+            <p>Authorized Signatory</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p
+          style="
+            text-decoration: underline;
+            text-align: center;
+            margin-top: 10px;
+          "
+        >
+          This is a computer generated invoice and does not require any
+          signature.
+        </p>
+      </div>
+      <!--footer end-->
+    </main>
+  </body>
+</html>
